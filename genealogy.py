@@ -102,7 +102,7 @@ class PhD:
 		# Fill in all the data and return		
 		return PhD(self.mgp, name, institution, year, dissertation, advisors)
 
-def generate_tree(root='67643'):
+def generate_tree(root='238293'):
 	# Have a starting person; defaults to me
 	start = PhD(mgp=root).update()
 	to_study = [start]			# These are the remaining names to look at
